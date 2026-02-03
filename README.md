@@ -1,3 +1,4 @@
-A simple portfolio website built with pure HTML.
-1. Open index.html in browser
-- HTML5
+Frontend Developer Portfolio
+A clean and simple portfolio website built using HTML only - no CSS, no JavaScript.
+🌐 Live Demo
+Project URL: https://nishxd09-droid.github.io/Basic-HTML-Website/
