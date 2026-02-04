@@ -4,75 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of a Frontend Developer showcasing projects, articles, and professional experience">
+    <meta name="keywords" content="frontend developer, web development, HTML, CSS, JavaScript">
+    <meta name="author" content="Your Name">
     <title>Basic HTML Website</title>
 </head>
 
 <body>
-
-    <!-- Header  -->
     <header>
-        <table width="100%">
-            <tr>
-                <td>
-                    <!-- Logo -->
-                    <strong>🐼 Nishad Paste</strong>
-                </td>
-                <td align="right">
-                    <!--  Navigation Menu -->
-                    <a href="#home">Home</a> /
-                    <a href="#home">Projects</a> /
-                    <a href="#home">Articles</a> /
-                    <a href="#home">Contact</a>
-                </td>
-            </tr>
-        </table>
+        <div class="logo">
+            <img src="Cato.png" alt="catpng" width="50" height="50">
+            <span>Nishad</span>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <hr>
+    <main>
+        <section class="hero">
+            <h1>Frontend Developer</h1>
+            <p>html only with proper layout, no styling</p>
+        </section>
 
-    <!-- Main Title Section -->
-    <div align="center">
-        <h1>Frontend Developer</h1>
-        <p>html only with proper layout, no styling</p>
-    </div>
-
-    <hr>
-
-    <!-- Columns -->
-    <table border="1" width="100%">
-        <tr>
-            <!-- Projects -->
-            <td valign="top" width="30%">
+        <section class="content-wrapper">
+            <aside class="sidebar">
                 <h2>Projects</h2>
                 <ul>
                     <li>HTML Only Portfolio</li>
                     <li>Calculator</li>
                     <li>Quiz App</li>
                     <li>Countdown Timer</li>
-                    <li>Product Upcoming page</li>
+                    <li>Product Upcoming Page</li>
                 </ul>
-            </td>
+            </aside>
 
-            <!-- Work Experience -->
-            <td valign="top" width="40%">
+            <section class="work-experience">
                 <h2>Work Experience</h2>
 
-                <h3>roadmap.sh</h3>
-                <p>Solved all the frontend projects</p>
-                <p><a href="#">Visit my Profile</a></p>
+                <article>
+                    <h3>roadmap.sh</h3>
+                    <p>Solved all the frontend projects</p>
+                    <a href="#">Visit my Profile</a>
+                </article>
 
-                <h3>OpenSource Work</h3>
-                <p>Contributed to 50 opensource projects. Made my own projects with 200 Github Stars.</p>
-                <p><a href="#">Visit my GitHub Profile</a></p>
-            </td>
+                <article>
+                    <h3>OpenSource Work</h3>
+                    <p>Contributed to 50 opensource projects. Made my own projects with 200 GitHub Stars.</p>
+                    <a href="#">Visit my GitHub Profile</a>
+                </article>
+            </section>
 
-            <!-- Education -->
-            <td valign="top" width="30%">
+            <aside class="education">
                 <h2>Education</h2>
-
                 <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
-                
-                <p><strong>Courses I took:</strong></p>
+
+                <h3>Courses I took:</h3>
                 <ul>
                     <li>Object Oriented Programming</li>
                     <li>Data Structures and Algorithms</li>
@@ -84,63 +78,48 @@
                     <li>Distributed Database Systems</li>
                     <li>Discreet Mathematics</li>
                 </ul>
-            </td>
-        </tr>
-    </table>
+            </aside>
+        </section>
 
-    <br>
+        <section class="testimonials">
+            <h2>Reviews from my Teachers</h2>
 
-    <!-- Reviews Section -->
-    <h2>Reviews from my Teachers</h2>
-    
-    <table width="100%">
-        <tr>
-            <!-- Review 1 -->
-            <td width="33%" valign="top">
-                <table border="1" width="100%">
-                    <tr>
-                        <td>
-                            <p><em>"John doe was a brilliant student; always stood out with his assignments."</em></p>
-                            <p><small>Jane Doe<br>Assistant Professor</small></p>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-    
-            <!-- Review 2 -->
-            <td width="33%" valign="top">
-                <table border="1" width="100%">
-                    <tr>
-                        <td>
-                            <p><em>"John doe was a brilliant student; always stood out with his assignments."</em></p>
-                            <p><small>Jane Doe<br>Assistant Professor</small></p>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-    
-            <!-- Review 3 -->
-            <td width="33%" valign="top">
-                <table border="1" width="100%">
-                    <tr>
-                        <td>
-                            <p><em>"John doe was a brilliant student; always stood out with his assignments."</em></p>
-                            <p><small>Jane Doe<br>Assistant Professor</small></p>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    
-    <br><br>
+            <article class="review">
+                <blockquote>
+                    <p>John doe was a brilliant student; always stood out with his assignments.</p>
+                </blockquote>
+                <footer>
+                    <cite>Jane Doe</cite>
+                    <p>Assistant Professor</p>
+                </footer>
+            </article>
 
-    <!-- Footer -->
+            <article class="review">
+                <blockquote>
+                    <p>John doe was a brilliant student; always stood out with his assignments.</p>
+                </blockquote>
+                <footer>
+                    <cite>Jane Doe</cite>
+                    <p>Assistant Professor</p>
+                </footer>
+            </article>
+
+            <article class="review">
+                <blockquote>
+                    <p>John doe was a brilliant student; always stood out with his assignments.</p>
+                </blockquote>
+                <footer>
+                    <cite>Jane Doe</cite>
+                    <p>Assistant Professor</p>
+                </footer>
+            </article>
+        </section>
+    </main>
+
     <footer>
-        <div align="center">
-            <p>© all rights reserved 2025</p>
-        </div>
+        <p>&copy; all rights reserved 2025</p>
     </footer>
-    
+
 </body>
+
 </html>
